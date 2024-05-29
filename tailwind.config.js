@@ -15,6 +15,10 @@ module.exports = {
         green_1: "#CEF53D",
 
         pink_1: "#FF78C5",
+
+        orange_1: "#EBC76B",
+        orange_2: "#605135",
+        orange_3: "#FFD297",
         customGreen: '#CFF53E',
         customBlue: '#4848FF',
       },

@@ -9,41 +9,51 @@ const HomePage = () => {
         <h1><br /></h1>
       </div>
 
-      <div className="pl-4 grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div className="pl-4 grid grid-cols-1 md:grid-cols-5 gap-4" 
+      style={{
+            backgroundImage: "url('/Banner.png')",
+            backgroundSize: "contain",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            height:"150px"
+          }}>
         <div className="md:pl-20 pt-9 md:col-span-3">
-          <p className="font-manjari text-gray-500 text-20px leading-tight">Stunning bag by</p>
-          <h1 className="font-manjari text-black text-40px md:text-60px leading-tight">OUR DESIGN TEAM</h1>
+          <p className="font-manjari text-gray-500 text-30px leading-tight">Travel with pet ?</p>
+          <h1 className="font-manjari text-black text-50px md:text-50px leading-tight">WHY NOT ?</h1>
         </div>
-        <div className="md:pr-20 pt-9 text-black md:col-span-2">
-          <p className="font-manjari text-30px md:text-50px leading-tight">Let's</p>
-          <h1 className="font-manjari text-30px md:text-50px leading-tight">MAKE YOUR TOTE</h1>
+  
+        <div
+          className="md:pl-20 pt-9 md:col-span-2 mb-2"
+        >
+          <p className="font-manjari text-gray-500 text-30px md:text-30px leading-tight">Appropriate choice</p>
+          <h1 className="font-manjari text-black text-50px md:text-50px leading-tight">FOR PET'S OWNER</h1>
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center md:justify-center md:space-x-4 space-y-2 md:space-y-0 bg-customGreen h-auto border-2 border-customBlue p-4 md:p-0">
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+      <div className="flex flex-wrap justify-center md:justify-center md:space-x-4 space-y-2 md:space-y-0 bg-orange_1 h-auto border-2 border-orange_2 p-4 md:p-0">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Tote bag by yourself
+          Pet care
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Express yourself
+          Pet spa
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Customizable
+          Pet hotel
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Unique design
+          Pet house
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Oversize is key feature
+          Pet mart
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Colorful and trendy
+          Best choice
         </button>
       </div>
 
@@ -61,9 +71,9 @@ const HomePage = () => {
         />
       </div>
 
-      {/*phần bảng màu đen*/}
-      <div className="bg-black">
-        <div className="pl-10 pt-20 pb-5 border-b border-customBlue">
+      {/*phần bảng màu nâu*/}
+      <div className="bg-orange_1">
+        <div className="pl-10 pt-20 pb-5 border-b border-orange_2">
           <p className="font-manjari text-gray-500 text-40px leading-tight">About</p>
           <h1 className="font-manjari text-white text-50px leading-tight">OUR AMBITION</h1>
         </div>
@@ -73,22 +83,22 @@ const HomePage = () => {
             alt="a"
             src="/image a.png"
           />
-          <div className="mt-52 ml-7 mr-7 border border-customBlue rounded-lg w-50 h-fit">
-            <div className="border-b border-customBlue p-4">
-              <p className="font-manjari text-white text-25px leading-tight mb-2"><FontAwesomeIcon icon={faStar} className="mr-2" /> Who are we?</p>
-              <h1 className="font-manjari mb-5 text-gray_2 text-16px leading-tight"> "nghịch" brings you a website platform where you have the creative freedom to design and customize your unique personal bag. Our website helps you choose from various options, allowing you to select colors, patterns, and styles that reflect your individuality.</h1>
+          <div className="mt-52 ml-7 mr-7 border border-orange_2 rounded-lg w-50 h-fit">
+            <div className="border-b border-orange_2 p-4">
+              <p className="font-manjari text-orange_2 text-25px leading-tight mb-2"><FontAwesomeIcon icon={faStar} className="mr-2" /> Who are we?</p>
+              <h1 className="font-manjari mb-5 text-gray_2 text-16px leading-tight"> ""Featherdream" brings you a website platform called Petalakà. This is the place for you to search and look up pet hotels for your pets. We will take care of them while you are away or traveling.</h1>
             </div>
             <div className="pb-2 p-4">
-              <p className="font-manjari text-white text-25px leading-tight mb-2"><FontAwesomeIcon icon={faStar} className="mr-2" /> Why are we different?</p>
-              <h1 className="font-manjari text-gray_2 text-16px leading-tight"> Among countless products on the market, finding a place for yourself is really difficult. We understand that, if you don't really stand out at something, how can you become more stand out? We too, in a fierce market with millions of products, to become your choice we must become very unique. What is unique to us is unique to you.</h1>
-              <h2 className="font-manjari text-gray_2 text-16px leading-tight mt-5"> nghịch team</h2>
+              <p className="font-manjari text-orange_2 text-25px leading-tight mb-2"><FontAwesomeIcon icon={faStar} className="mr-2" /> Why are we different?</p>
+              <h1 className="font-manjari text-gray_2 text-16px leading-tight"> Besides finding and taking care of your pets when you are away, we also assist you when you arrive at a hotel or homestay that does not allow pets. We can help you connect with the nearest pet hotels. Additionally, we can help you find hotels that allow you to bring your pets along.</h1>
+              <h2 className="font-manjari text-gray_2 text-16px leading-tight mt-5"> Featheream team</h2>
             </div>
           </div>
         </div>
       </div>
 
-      {/*phần bảng màu xanh*/}
-      <div className="bg-customGreen px-4 md:px-20 lg:px-60 py-10">
+      {/*phần bảng màu nhạt*/}
+      <div className="bg-orange_3 px-4 md:px-20 lg:px-60 py-10">
         <div className="border-b border-gray_2">
           <p className="font-manjari text-black_2 text-16px leading-tight mb-2">SERVICES</p>
           <h1 className="font-manjari mb-5 text-black text-40px leading-tight">MY PHOTOGRAPHY SERVICES</h1>
@@ -131,30 +141,30 @@ const HomePage = () => {
               <img className="relative w-full h-40 object-cover rounded-md" alt="c" src="/image c.png" />
               <div className="flex justify-between p-4">
                 <div>
-                  <p className="text-left text-black text-14px mb-0">Faces of Resilience</p>
+                  <p className="text-left text-black text-14px mb-0">Service 1</p>
                   <p className="text-left text-gray_2 text-12px mt-0">March 2022</p>
                 </div>
-                <Link to="/project" className="text-right text-14px underline text-black">VIEW PROJECT</Link>
+                <Link to="/project" className="text-right text-14px underline text-black">VIEW SERVICE</Link>
               </div>
             </div>
             <div className="flex-1 text-center p-4 border border-black rounded-md mb-4 lg:mb-0">
               <img className="relative w-full h-40 object-cover rounded-md" alt="d" src="/image d.png" />
               <div className="flex justify-between p-4">
                 <div>
-                  <p className="text-left text-black text-14px mb-0">A Wedding Tale</p>
+                  <p className="text-left text-black text-14px mb-0">Service 2</p>
                   <p className="text-left text-gray_2 text-12px mt-0">January 2020</p>
                 </div>
-                <Link to="/project" className="text-right text-14px underline text-black">VIEW PROJECT</Link>
+                <Link to="/project" className="text-right text-14px underline text-black">VIEW SERVICE</Link>
               </div>
             </div>
             <div className="flex-1 text-center p-4 border border-black rounded-md">
               <img className="relative w-full h-40 object-cover rounded-md" alt="e" src="/image e.png" />
               <div className="flex justify-between p-4">
                 <div>
-                  <p className="text-left text-black text-14px mb-0">Product Elegance</p>
+                  <p className="text-left text-black text-14px mb-0">Service 1</p>
                   <p className="text-left text-gray_2 text-12px mt-0">January 2020</p>
                 </div>
-                <Link to="/project" className="text-right text-14px underline text-black">VIEW PROJECT</Link>
+                <Link to="/project" className="text-right text-14px underline text-black">VIEW SERVICE</Link>
               </div>
             </div>
           </div>
@@ -264,34 +274,34 @@ const HomePage = () => {
         <img
           className="relative h-30 w-40 object-cover"
           alt="Logo copy"
-          src="/logo_nghich.png"
+          src="/Now!.png"
         />
       </div>
 
-      <div className="flex flex-wrap justify-center md:justify-center md:space-x-4 space-y-2 md:space-y-0 bg-customGreen h-auto border-2 border-customBlue p-4 md:p-0">
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+      <div className="flex flex-wrap justify-center md:justify-center md:space-x-4 space-y-2 md:space-y-0 bg-orange_1 h-auto border-2 border-orange_2 p-4 md:p-0">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Tote bag by yourself
+          Pet care
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Express yourself
+          Pet spa
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Customizable
+          Pet hotel
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Unique design
+          Pet house
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Oversize is key feature
+          Pet mart
         </button>
-        <button className="px-4 py-2 font-manjari text-customBlue rounded flex items-center">
+        <button className="px-4 py-2 font-manjari text-orange_2 rounded flex items-center">
           <FontAwesomeIcon icon={faStar} className="mr-2" />
-          Colorful and trendy
+          Best choice
         </button>
       </div>
 

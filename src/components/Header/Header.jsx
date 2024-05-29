@@ -10,24 +10,24 @@ const Header = () => {
   const [isLogin, setIsLogin] = useState(true);
   return (
     <div className="relative w-full">
-      <div className="w-full bg-pink_1 text-center py-2">
+      <div className="w-full bg-orange_1 text-center py-2">
         <span className="text-sm text-white font-medium flex items-center justify-center">
           <svg className="mr-2" width="24" height="24" viewBox="0 0 24 24" fill="white">
             <path d={mdiTicket} />
           </svg>
-          30% off storewide — Limited time!
+          30% sale off — Limited time!
           <Link to="/shop" className="text-white underline flex items-center p-2">
-            Shop Now!!
+            Booking Now!!
             <FontAwesomeIcon icon={faArrowRight} className="ml-1" />
           </Link>
         </span>
       </div>
-      <div className="flex flex-col lg:flex-row w-full items-center justify-between px-4 md:px-10 lg:px-40 py-4 bg-pink_1">
+      <div className="flex flex-col lg:flex-row w-full items-center justify-between px-4 md:px-10 lg:px-40 py-4 bg-orange_1">
         <Link to="/">
           <img
             className="relative w-24 h-9 object-cover"
             alt="Logo"
-            src="/logo_nghich.png"
+            src="/Now!.png"
           />
         </Link>
 
@@ -36,10 +36,10 @@ const Header = () => {
             Home
           </Link>
           <Link to="/products" className="text-gray_2 font-medium">
-            Product
+            Services
           </Link>
           <Link to="/custom" className="text-gray_2 font-medium">
-            Custom
+            News
           </Link>
           <Link to="/contact" className="text-gray_2 font-medium">
             Contact Us
